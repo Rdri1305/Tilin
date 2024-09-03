@@ -4,11 +4,13 @@ class Persona:
     nombre = ''
     apellido = ''
     peso = 0
+    
     #Metodos u operaciónes
     def comer(self):
         self.peso += 1
     def caminar(self):
         self.peso -= 0.5
+        
 #Realizar operaciónes con clases de objetos
 #Crear los ojetos
 per1 = Persona()
