@@ -37,12 +37,23 @@ class testPersona(unittest.TestCase):
     def test_entrenar(self):
         Nuñez_per2 = Persona('Tilino')
         Nuñez_per2.entrenar()
-        self.assertEqual(Nuñez_per2.Nuñez_distancia_recorrida, 100)
+        self.assertEqual(Nuñez_per2.Nuñez_distancia_recorrida, 200)
+        self.assertEqual(Nuñez_per2.Nuñez_calorias_consumidas, 23)
         
     def test_competir(self):
         Nuñez_per3 = Persona('Joaquin')
         Nuñez_per3.competir()
-        self.assertEqual(Nuñez_per3.Nuñez_distancia_recorrida, 100)
+        self.assertEqual(Nuñez_per3.Nuñez_distancia_recorrida, 300)
+        self.assertEqual(Nuñez_per3.Nuñez_calorias_consumidas, 23)
         
 if __name__ == '__main__':
  unittest.main()
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
